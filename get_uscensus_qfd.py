@@ -104,6 +104,9 @@ for s in range(1,5):
         s_f = float(str(s_t).split("%")[0])
         c_share = round(c_f/100,3)
         s_share = round(s_f/100,3)
+        
+        #####################state_list = soup.find_all("select", attrs={'id':'State'})
+
                         		        		        
         #humidity = soup.find(text='Average Humidity')
         #next_cell = humidity.find_parent('td').find_next_sibling('td')
